@@ -1,13 +1,17 @@
-# ⚡ High-Speed Multi-Threaded Ping Sweeper
+# ⚡ CEH Network Scanning, Ping Sweep & Reconnaissance Suite
 
-A Python utility built with `concurrent.futures` to rapidly discover active hosts across an entire subnet (e.g., `/24`) in seconds.
+High-performance reconnaissance tools and methodology documentation aligned with the **EC-Council Certified Ethical Hacker (CEH)** curriculum.
 
-## 🚀 Key Capabilities
-- Multi-threaded ICMP ping execution.
-- Cross-platform support (Windows & Linux ping flags).
-- Exports live host report with response latency into CSV.
+## 📌 Roadmap Alignment: Networkers Home Cyber & Cloud Security
+- **Domain:** CEH (Certified Ethical Hacker) - Module 3: Scanning Networks
+- **Host Discovery:** High-speed multi-threaded ICMP sweep across IPv4 subnets
+- **Port & Service Fingerprinting:** Automated TCP connection scanner with application banner grabbing
+- **Nmap Runbooks:** Comprehensive cheat sheet covering TCP SYN (-sS), Version Detection (-sV), and IDS/Firewall evasion techniques
 
-## 💻 Usage
-```bash
-python ping_sweeper.py 192.168.1.0/24 --workers 50
-```
+## 📁 Repository Contents
+- `ceh_nmap_recon_scanner.py`: Python-based multi-threaded port and banner grabbing scanner.
+- `ceh_ethical_hacking_recon_guide.md`: Production Nmap methodology and evasion manual.
+- `ping_sweeper.py`: Concurrent ICMP ping sweep utility.
+
+---
+*Created by Manoj M | Network & Cyber Security Engineer*
